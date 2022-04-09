@@ -26,7 +26,7 @@ searchForm.addEventListener("submit", (event) => {
 			const { height: cardHeight } = document.querySelector('.gallery')
   			.firstElementChild.getBoundingClientRect();
 			window.scrollBy({
-  				top: cardHeight * 2,
+  				top: cardHeight * 0.1,
   				behavior: 'smooth',
 			});
 			lightbox.refresh();
@@ -54,7 +54,7 @@ loadMore.addEventListener("click", () => {
 			const { height: cardHeight } = document.querySelector('.gallery')
   			.firstElementChild.getBoundingClientRect();
 			window.scrollBy({
-  				top: cardHeight * 2,
+  				top: cardHeight * 2.5,
   				behavior: 'smooth',
 			});
 			lightbox.refresh();
